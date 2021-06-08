@@ -7,6 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="typed">
+        <h1> I am <span class="anim"></span></h1>
+    </div>
+    <script src="typed.js">
+    </script>
+    <script>
+        var typed = new Typed('.anim', {
+        // Waits 1000ms after typing "First"
+        strings: ['Web developer', 'Student', 'Full stack','Magicin'],
+        typeSpeed: 150,
+        backSpeed: 100,
+        loop: true
+
+        });
+    </script>
 </body>
 </html>
